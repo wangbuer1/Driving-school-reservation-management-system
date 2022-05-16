@@ -105,14 +105,16 @@
 ### 4.4 文章目录
 
 ![文章目录](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220514224647.jpg)
+## 5、视频演示
+[点击观看视频，位于文章下方](https://mp.weixin.qq.com/s/MA-Czo9YX2laiu0hscOxdg)
 
-## 5、获取方式
+## 6、获取方式
 
 关注公众号： **程序员王不二**，回复 “驾校1” ，即可获取完整版的项目代码。
 
 ![image-20220509000010316](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220509000012.png)
 
-## 6、其它项目
+## 7、其它项目
 
 * [点击访问各种项目源码](https://mp.weixin.qq.com/s?__biz=MzkwMjM1MjM0Ng==&mid=2247483834&idx=1&sn=40517cecf36ce5d7663ed774a033fa2c&chksm=c0a79d0ff7d0141943c5d8da40b489e8ecdda5c345568776f475576506c76a954bd8238dc4f5#rd)
 * [SSM框架项目](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkwMjM1MjM0Ng==&action=getalbum&album_id=2387377591113859072#wechat_redirect)
