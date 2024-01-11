@@ -4,11 +4,12 @@
 
 基于SSM的驾校预约管理系统1拥有三种角色，分别为管理员、教练、学员，具体功能如下：
 
-管理员：学员管理、教练管理、驾校车辆管理、预约管理、取消预约管理、公告管理
+- 管理员：学员管理、教练管理、驾校车辆管理、预约管理、取消预约管理、公告管理
 
-教练：教练信息查询、预约管理、取消预约管理、注册、个人中心
+- 教练：教练信息查询、预约管理、取消预约管理、注册、个人中心
 
-学员：查看教练信息、预约教练、取消预约教练、评价教练、注册、个人中心
+- 学员：查看教练信息、预约教练、取消预约教练、评价教练、注册、个人中心
+
 
 
 ## 2、项目技术
@@ -17,12 +18,14 @@
 
 前端框架：Bootstrap、vue、jsp、css、JavaScript、JQuery
 
+前后端分离项目
+
 ## 3、开发环境
 
 - JAVA版本：JDK1.8，其它版本理论上可以
 - IDE类型：IDEA、Eclipse、Myeclipse都可以。推荐IDEA与Eclipse
 - tomcat版本：Tomcat 7.x、8.x、9.x、10.x版本均可
-- 数据库版本：MySql 5.x
+- 数据库版本：MySql 5.x和8都可以
 - maven版本：无限制
 - 硬件环境：Windows 或者 Mac OS
 
@@ -31,23 +34,23 @@
 
 ### 4.1 登录
 
-![前端登录](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220514223433.jpg)
+![前端登录](https://www.codeshop.fun/Typora-Images/20220514223433.jpg)
 
 教练和学员可以通过此界面登录至前端系统
 
 ### 4.2 学员模块
 
-![学员个人中心](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220514223517.jpg)
+![学员个人中心](https://www.codeshop.fun/Typora-Images/20220514223517.jpg)
 
-![学员查询教练信息1](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220514223523.jpg)
+![学员查询教练信息1](https://www.codeshop.fun/Typora-Images/20220514223523.jpg)
 
-![学员查看教练信息2](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220514223529.jpg)
+![学员查看教练信息2](https://www.codeshop.fun/Typora-Images/20220514223529.jpg)
 
-![学员预约教练](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220514223536.jpg)
+![学员预约教练](https://www.codeshop.fun/Typora-Images/20220514223536.jpg)
 
-![学员后台-预约管理](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220514223541.jpg)
+![学员后台-预约管理](https://www.codeshop.fun/Typora-Images/20220514223541.jpg)
 
-![学员后台-取消预约管理](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220514223546.jpg)
+![学员后台-取消预约管理](https://www.codeshop.fun/Typora-Images/20220514223546.jpg)
 
 - 查看教练信息：学员可以通过教练账号和姓名多条件筛选教练、查询教练详细信息
 
@@ -62,11 +65,11 @@
 
 ### 4.3 教练模块
 
-![教练后台-教练信息查询](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220514223853.jpg)
+![教练后台-教练信息查询](https://www.codeshop.fun/Typora-Images/20220514223853.jpg)
 
-![教练后台预约管理](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220514223855.jpg)
+![教练后台预约管理](https://www.codeshop.fun/Typora-Images/20220514223855.jpg)
 
-![教练后台取消预约管理](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220514223858.jpg)
+![教练后台取消预约管理](https://www.codeshop.fun/Typora-Images/20220514223858.jpg)
 
 - 教练信息查询：教练可以通过账号和姓名多条件查询其他教练信息详情
 
@@ -77,17 +80,17 @@
 
 ### 4.4 管理员模块
 
-![管理员-驾校车辆管理](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220514224054.jpg)
+![管理员-驾校车辆管理](https://www.codeshop.fun/Typora-Images/20220514224054.jpg)
 
-![管理员-驾校公告管理](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220514224058.jpg)
+![管理员-驾校公告管理](https://www.codeshop.fun/Typora-Images/20220514224058.jpg)
 
-![管理员-驾校教练管理](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220514224100.jpg)
+![管理员-驾校教练管理](https://www.codeshop.fun/Typora-Images/20220514224100.jpg)
 
-![管理员-学员管理](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220514224103.jpg)
+![管理员-学员管理](https://www.codeshop.fun/Typora-Images/20220514224103.jpg)
 
-![管理员-预约管理](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220514224108.jpg)
+![管理员-预约管理](https://www.codeshop.fun/Typora-Images/20220514224108.jpg)
 
-![管理员-取消预约管理](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220514224111.jpg)
+![管理员-取消预约管理](https://www.codeshop.fun/Typora-Images/20220514224111.jpg)
 
 - 教练管理：管理员可以通过账号和姓名筛选教练信息，并能够增加、查看、修改、删除教练，还能查看教练评价
 
@@ -104,9 +107,15 @@
 
 ### 4.4 文章目录
 
-![文章目录](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220514224647.jpg)
-## 5、视频演示
-[点击观看视频，位于文章下方](https://mp.weixin.qq.com/s/MA-Czo9YX2laiu0hscOxdg)
+![文章目录](https://www.codeshop.fun/Typora-Images/20220514224647.jpg)
+
+## 5、获取方式
+
+扫描下方，回复 关键词“**驾校1**” ，以获取完整版的项目代码。
+
+![image-20220509000010316](https://www.codeshop.fun/Typora-Images/202205281253739.png)
+
+
 
 ## 6、获取方式
 
@@ -114,14 +123,7 @@
 
 ![image-20220509000010316](https://gitee.com/buer_wang/project-drawing-bed/raw/master/Typora-Images/20220509000012.png)
 
-## 7、其它项目
 
-* [点击访问各种项目源码](https://mp.weixin.qq.com/s?__biz=MzkwMjM1MjM0Ng==&mid=2247483834&idx=1&sn=40517cecf36ce5d7663ed774a033fa2c&chksm=c0a79d0ff7d0141943c5d8da40b489e8ecdda5c345568776f475576506c76a954bd8238dc4f5#rd)
-* [SSM框架项目](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkwMjM1MjM0Ng==&action=getalbum&album_id=2387377591113859072#wechat_redirect)
-
-* [springboot项目](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkwMjM1MjM0Ng==&action=getalbum&album_id=2387377898791223296#wechat_redirect)
-
-* [简单无框架项目](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkwMjM1MjM0Ng==&action=getalbum&album_id=2387378317047218183#wechat_redirect)
 
   
 
